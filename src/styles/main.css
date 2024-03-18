@@ -1,0 +1,48 @@
+.Nav {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  justify-content: flex-start;
+  gap: 10px;
+  background-color: cadetblue;
+
+  a {
+    text-decoration: inherit;
+  }
+
+  :hover {
+    color: aliceblue;
+  }
+}
+
+.Footer {
+  background-color: lightskyblue;
+
+  :hover {
+    color: cornflowerblue;
+  }
+}
+
+.btn-normal {
+  border: 2px solid grey;
+  border-radius: 5px;
+  background-color: darkgoldenrod;
+
+  &:hover {
+    background-color: lightgoldenrodyellow;
+    color: darkgoldenrod;
+  }
+}
+
+.link {
+  color: burlywood;
+  text-decoration: none;
+
+  &:hover {
+    color: red;
+  }
+}
+
+input {
+  background-color: lightcyan;
+}
